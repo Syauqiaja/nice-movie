@@ -116,6 +116,13 @@ class MovieDetailFragment : BaseFragment<FragmentMovieDetailBinding>(
                     viewModel.setFav(movie.parseMovieDetailToMovie())
                 }
             }
+            btnActionSave.setOnClickListener {
+                if(viewModel.isFav.value){
+                    viewModel.deleteFav(movie.parseMovieDetailToMovie())
+                }else{
+                    viewModel.setFav(movie.parseMovieDetailToMovie())
+                }
+            }
             tvSummary.text = movie.plot
             tvDirector.text = getString(R.string.director_s, movie.director)
             tvProductionCompany.text = getString(R.string.production_company_s, movie.production)

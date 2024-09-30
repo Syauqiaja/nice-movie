@@ -143,6 +143,7 @@
 
 
                     <ImageButton
+                        android:visibility="gone"
                         android:id="@+id/btn_action_save"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
