@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+
+        app:searchIcon="@drawable/ic_search_outline_gray400"
+        android:background="@drawable/bg_white_green_outline"
+        android:backgroundTintMode="multiply"
+        android:clipToPadding="false"
+
+        android:hint="@string/search_artist_hint"
+        app:queryBackground="@color/transparent"
+        app:iconifiedByDefault="false"
+        android:text="@string/search_artist_hint"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginHorizontal="8dp"
+        android:paddingVertical="16dp"
+        android:clipToPadding="false"
+        android:paddingHorizontal="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_movie"
+        tools:visibility="visible"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        tools:visibility="gone">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:src="@drawable/img_empty_cart"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/we_didn_t_find_anything"
+            style="@style/TextAppearance.AppCompat.Headline5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_body_light"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

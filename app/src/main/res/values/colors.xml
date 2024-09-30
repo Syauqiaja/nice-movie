@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="black">#121826</color>
+    <color name="black_30">#4D121826</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+
+    <color name="purple">#7F52FF</color>
+    <color name="lilac">#9F3BC2</color>
+
+    <!--    Primary    -->
+    <color name="primary_dark_green">#228E8E</color>
+    <color name="primary_base">#1DAC92</color>
+    <color name="primary_400">#4ABDA8</color>
+    <color name="primary_teal">#2DD4BF</color>
+    <color name="primary_300">#77CDBE</color>
+    <color name="primary_200">#A5DED3</color>
+    <color name="primary_100">#D2EEE9</color>
+
+    <!--    Secondary    -->
+    <color name="secondary_base">#252D41</color>
+    <color name="secondary_400">#4A5A82</color>
+    <color name="secondary_300">#6378AE</color>
+    <color name="secondary_200">#B1BBD6</color>
+    <color name="secondary_100">#C5CCE0</color>
+
+    <!--    Grayscale    -->
+    <color name="gray_50">#F8FAFC</color>
+    <color name="gray_100">#F1F5F9</color>
+    <color name="gray_200">#E2E8F0</color>
+    <color name="gray_300">#CBD5E1</color>
+    <color name="gray_400">#94A3B8</color>
+    <color name="gray_500">#64748B</color>
+    <color name="gray_600">#475569</color>
+    <color name="gray_700">#334155</color>
+    <color name="gray_800">#1E293B</color>
+    <color name="gray_900">#121826</color>
+
+    <!--    Alerts    -->
+    <color name="error_light">#FCA5A5</color>
+    <color name="error_base">#F75555</color>
+    <color name="error_dark">#EF4444</color>
+
+    <color name="warning_light">#FDE047</color>
+    <color name="warning_base">#FACC15</color>
+    <color name="warinng_dark">#EAB308</color>
+
+    <color name="success_light">#84DDA5</color>
+    <color name="success_base">#64C086</color>
+    <color name="success_dark">#5BAB78</color>
+
+    <!--  Text Colors  -->
+    <color name="text_black">@color/gray_900</color>
+    <color name="text_body">@color/gray_800</color>
+    <color name="text_body_light">@color/gray_500</color>
+    <color name="text_secondary">@color/gray_300</color>
+    <color name="shimmer">#DDDDDD</color>
+
+    <!--  Others  -->
+    <color name="ripple_effect">#77A5DED3</color>
+</resources>

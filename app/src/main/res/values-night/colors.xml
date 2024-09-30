@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondary_base">#2DD4BF</color>
+
+    <!--  Text Colors  -->
+    <color name="text_black">@color/white</color>
+    <color name="text_body">@color/white</color>
+    <color name="text_body_light">@color/gray_200</color>
+    <color name="text_secondary">@color/gray_400</color>
+    <color name="shimmer">#4C4C4C</color>
+
+    <!--  Others  -->
+    <color name="ripple_effect">#77B8B8B8</color>
+</resources>

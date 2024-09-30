@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_230sdp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        android:layout_gravity="center"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.RoundedCornerCard.16dp">
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_gravity="top|end"
+            android:src="@drawable/ic_clear"
+            android:background="@drawable/ripple_borderless"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            app:tint="?attr/colorPrimary" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/_12sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch on"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline5"
+                android:gravity="center_horizontal"
+                android:textColor="?attr/colorPrimary"
+                android:layout_marginVertical="@dimen/_12sdp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_providers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                tools:listitem="@layout/item_watch_provider"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body.Small.Regular"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:textColor="@color/text_body"
+                android:text="@string/source_just_watch"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

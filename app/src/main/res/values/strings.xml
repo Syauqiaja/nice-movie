@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Nice movie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <!-- Actor Detail Page   -->
+    <string name="tom_cruise">Tom Cruise</string>
+    <string name="born">Born</string>
+    <string name="photos">Photos</string>
+    <string name="see_all_photos">See all photos ></string>
+    <string name="contact_info">Contact info</string>
+    <string name="view_agent">View agent, publicist, legal, on IMDBPro</string>
+    <string name="filmography">Filmography</string>
+    <string name="movie">Movie</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+
+    <!--  Home screen  -->
+    <string name="suggested_for_you">Suggested for you…</string>
+    <string name="popular_actors">Popular actors</string>
+    <string name="trending_artist_today">Trending Artist Today</string>
+    <string name="popular_actress">Popular actress</string>
+    <string name="view_all">View all</string>
+
+    <!--  Search screen  -->
+    <string name="search_artist_hint">Which artist do you want to look up to?</string>
+
+    <!--  Items  -->
+    <string name="popularity">Popularity</string>
+    <string name="known_for">Known for:</string>
+
+    <!--  Samples  -->
+    <string name="sample_actor_birth_place">Modesto, California, USA</string>
+    <string name="sample_actor_birth_date">1944-05-14</string>
+    <string name="sample_actor_popularity">26.9</string>
+    <string name="sample_movie_title_1">R2-D2: Beneath the Dome</string>
+    <string name="sample_rating">5.7</string>
+    <string name="sample_movie_genre">Adventure</string>
+    <string name="sample_known_for">Star wars : The last Jedi \nStar wars : The force awakens</string>
+
+    <!--  Bottom nav  -->
+    <string name="homepage">Homepage</string>
+    <string name="discover">Discover</string>
+    <string name="favorite">Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="your_favorite_artists">Your favorite artists</string>
+    <string name="imdb_id">IMDb Id : %s</string>
+    <string name="loading_content">Loading content...</string>
+    <string name="popularity_format">%s Popularity</string>
+    <string name="we_didn_t_find_anything">We didn\'t find anything</string>
+    <string name="director_s">Director: %s</string>
+    <string name="detail_head_movie">%s | %s | %s</string>
+    <string name="production_company_s">Production companies: %s</string>
+    <string name="source_just_watch">Source by www.justwatch.com</string>
+    <string name="view">View</string>
+</resources>

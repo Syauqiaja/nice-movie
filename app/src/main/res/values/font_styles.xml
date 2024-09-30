@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.AppCompat.Body" parent="">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body.XSmall" parent="TextAppearance.AppCompat.Body">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Small" parent="TextAppearance.AppCompat.Body">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Medium" parent="TextAppearance.AppCompat.Body">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Large" parent="TextAppearance.AppCompat.Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.XLarge" parent="TextAppearance.AppCompat.Body">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body.Small.Regular" parent="TextAppearance.AppCompat.Body.Small">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Small.Medium" parent="TextAppearance.AppCompat.Body.Small">
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Small.SemiBold" parent="TextAppearance.AppCompat.Body.Small">
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Small.Bold" parent="TextAppearance.AppCompat.Body.Small">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body.Medium.Regular" parent="TextAppearance.AppCompat.Body.Medium">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Medium.Medium" parent="TextAppearance.AppCompat.Body.Medium">
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Medium.SemiBold" parent="TextAppearance.AppCompat.Body.Medium">
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Medium.Bold" parent="TextAppearance.AppCompat.Body.Medium">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body.Large.Regular" parent="TextAppearance.AppCompat.Body.Large">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Large.Medium" parent="TextAppearance.AppCompat.Body.Large">
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Large.SemiBold" parent="TextAppearance.AppCompat.Body.Large">
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.Large.Bold" parent="TextAppearance.AppCompat.Body.Large">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body.XLarge.Regular" parent="TextAppearance.AppCompat.Body.XLarge">
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.XLarge.Medium" parent="TextAppearance.AppCompat.Body.XLarge">
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.XLarge.SemiBold" parent="TextAppearance.AppCompat.Body.XLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Body.XLarge.Bold" parent="TextAppearance.AppCompat.Body.XLarge">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Headline1" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Headline2" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Headline3" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Headline4" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Headline5" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Headline6" parent="TextAppearance.AppCompat.Body">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Wathceez.WidgetButton" parent="">
+        <item name="android:background">@drawable/ripple_borderless</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body.Medium.SemiBold</item>
+        <item name="android:textColor">@color/text_body</item>
+        <item name="iconGravity">textTop</item>
+        <item name="iconSize">@dimen/_20sdp</item>
+        <item name="iconTint">@color/text_body</item>
+    </style>
+    <style name="Theme.Watcheez.ColoredSimpleToolbar" parent="">
+        <item name="colorControlNormal">@color/primary_base</item>
+        <item name="android:colorControlNormal">@color/primary_base</item>
+        <item name="android:textColorSecondary">@color/primary_base</item>
+    </style>
+</resources>
