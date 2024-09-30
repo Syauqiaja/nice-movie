@@ -23,6 +23,14 @@ This project is built using **Clean Architecture**, which separates concerns and
 - **State Management**: Flow & LiveData
 - **Networking**: Retrofit2, GSON
 
+## Screenshots
+
+Here are some screenshots of the Nice Movie app:
+
+| Home Page | Detail Page |
+|-----------|-------------|
+| ![Home Page](ss_home.png) | ![Detail Page](ss_detail.png) |
+
 ## Setup
 
 To run the Nice Movie app locally, follow these steps:
