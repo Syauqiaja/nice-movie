@@ -116,7 +116,7 @@ class MovieDetailFragment : BaseFragment<FragmentMovieDetailBinding>(
                     viewModel.setFav(movie.parseMovieDetailToMovie())
                 }
             }
-            btnActionSave.setOnClickListener {
+            btnSave.setOnClickListener {
                 if(viewModel.isFav.value){
                     viewModel.deleteFav(movie.parseMovieDetailToMovie())
                 }else{
